@@ -44,7 +44,7 @@ export default class Card extends Component {
 
   render() {
     const {id, name, desc, price} = this.props.product
-    const proImage = `http://www.nehhdc.com/data/images1/${id}.jpg?height=500`
+    const proImage = `http://www.nehhdc.com/data/images1/${id}.jpg?height=800`
 
     const rotateCard = this.pan.x.interpolate({
       inputRange: [-200, 0, 200],

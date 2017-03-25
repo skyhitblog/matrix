@@ -12,8 +12,7 @@ firebase.initializeApp(firebaseConfig)
 export default class Firebase extends Component {
   render() {
     return (
-      <View>
-      </View>
+      <View />
     )
   }
 }
